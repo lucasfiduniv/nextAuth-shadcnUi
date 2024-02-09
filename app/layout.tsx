@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import Providers from "./providers";
+import Providers from "./providers/providers";
 import ThemeSwitcher from "../components/themeSwitcher";
 
 export const metadata: Metadata = {
